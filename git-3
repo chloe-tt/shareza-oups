@@ -1,0 +1,13 @@
+[chloe@MacBook-Pro-de-chloe] ~/shareza-oups (master) $ git log --oneline
+6e8a2f6 (HEAD -> master, origin/master) add paragraph
+4834c28 Change Title
+46f87bf Creation index
+[chloe@MacBook-Pro-de-chloe] ~/shareza-oups (master) $ git revert HEAD
+[master 126ac57] Revert "add paragraph"
+ 1 file changed, 1 deletion(-)
+[chloe@MacBook-Pro-de-chloe] ~/shareza-oups (master) $ git log --oneline
+126ac57 (HEAD -> master) Revert "add paragraph"
+6e8a2f6 (origin/master) add paragraph
+4834c28 Change Title
+46f87bf Creation index
+[chloe@MacBook-Pro-de-chloe] ~/shareza-oups (master) $ 
